@@ -134,6 +134,12 @@ main {
 .moreright svg {
     display: none;
 }
+.moreright svg:hover {
+    transform: scale(1.1);
+}
+.moreright svg:active {
+    transform: 0.9;
+}
 .header__right {
     display: flex;
     align-items: center;
@@ -751,3 +757,4 @@ header a:hover {
     left: 24px;
 }
 }
+
