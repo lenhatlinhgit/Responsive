@@ -57,6 +57,18 @@ header a:hover {
 header a:active {
     color: red;
 }
+#hamburger:hover {
+    transform: scale(1.1);
+}
+#hamburger:active {
+    transform: scale(0.9);
+}
+#close-menu:hover {
+    transform: scale(1.1);
+}
+#close-menu:active {
+    transform: scale(0.9);
+}
 #logoheader {
     opacity: 1;
 }
@@ -483,7 +495,7 @@ main {
     letter-spacing: 0.001em;
     cursor: pointer;
 }
-right:hover {
+.moreright:hover {
     transform: scale(1.01);
     color: red;
 }
@@ -562,6 +574,7 @@ li {
 header a:hover {
     border-bottom: none;
     color: red;
+    transform: scale(1.1);
 }
 .menu li:hover .line {
     display: inline;
@@ -570,6 +583,13 @@ header a:hover {
     background-color: red;
     margin-left: auto;
     margin-right: 50px;
+    transform: scale(1.1);
+}
+header a:active {
+    transform: scale(0.9);
+}
+.menu li:active .line {
+    transform: scale(1.1);
 }
 .menu-header {
     display: flex;
@@ -757,4 +777,5 @@ header a:hover {
     left: 24px;
 }
 }
+
 
