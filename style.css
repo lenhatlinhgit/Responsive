@@ -306,6 +306,7 @@ main {
 .divCriteriaitem svg {
     position: relative;
     top: 12px;
+    margin: 0px 12px;
 }
 .divkeyword {
     display: flex;
@@ -687,3 +688,4 @@ header a:hover {
     left: 24px;
 }
 }
+
