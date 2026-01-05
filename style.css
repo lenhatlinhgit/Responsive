@@ -54,7 +54,9 @@ header a:hover {
     cursor: pointer;
     padding: 0px;
 }
-
+header a:active {
+    color: red;
+}
 #logoheader {
     opacity: 1;
 }
@@ -68,8 +70,11 @@ header button {
     cursor: pointer;
 }
 
-header button:hover {
-box-shadow: 0 6px 4px rgba(0,0,0,.15);
+button:hover {
+    transform: scale(1.02);
+}
+button:active {
+    transform: scale(0.98);
 }
 main {
     width: 936px;
@@ -143,6 +148,9 @@ main {
 .header__icon:hover {
     transform: scale(1.15);
 }
+.header__icon:active {
+    transform: scale(0.98);
+}
 .header__user-info {
     display: inline-flex;
     text-align: right;
@@ -176,12 +184,26 @@ main {
 .introduction__left svg {
     cursor: pointer;
 }
+.introduction__left svg:hover {
+    transform: scale(1.1);
+}
+.introduction__left svg:active {
+    transform: scale(0.9);
+}
 .introduction__left--hightlight {
     color: #D93C23;
     font-size: 14px;
-    font-size: 600;
+    font-weight: 400;
     letter-spacing: 0.0125em;
     cursor: pointer;
+}
+.introduction__left--hightlight:hover {
+    font-weight: 600;
+}
+.introduction__left--hightlight:active {
+    transform: scale(0.9);
+    text-decoration: underline;
+    font-weight: 400;
 }
 .introduction__right {
     display: flex;
@@ -209,6 +231,12 @@ main {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.introduction__right--right:hover {
+    transform: scale(1.01);
+}
+.introduction__right--right:active {
+    transform: scale(0.99);
 }
 .title {
     font-size: 32px;
@@ -325,6 +353,12 @@ main {
     margin: 36px 0px;
     cursor: pointer;
 }
+.keyword:hover {
+    transform: scale(1.02);
+}
+.keyword:active {
+    transform: scale(0.98);
+}
 .relatednews {
     display: flex;
     align-items: center;
@@ -353,6 +387,12 @@ main {
     border-radius: 36px;
     cursor: pointer;
 }
+.relatednews__left2:hover {
+    transform: scale(1.02);
+}
+.relatednews__left2:active {
+    transform: scale(0.98);
+}
 .relatednews__right {
     font-size: 16px;
     font-weight: 400;
@@ -360,12 +400,27 @@ main {
     letter-spacing: 0.001em;
     cursor: pointer;
 }
+.relatednews__right:hover {
+    transform: scale(1.01);
+    color: red;
+}
+.relatednews__right:active {
+    transform: scale(0.99);
+    text-decoration: underline;
+}
 .itemnews {
     display: flex;
     gap: 24px;
     align-items: center;
     width: 100%;
     margin: 18px 0px;
+    cursor: pointer;
+}
+.itemnews:hover {
+    transform: scale(1.005);
+}
+.itemnews:active {
+    transform: scale(0.995);
 }
 .itemnews__divcontent {
     width: 336px;
@@ -421,6 +476,14 @@ main {
     line-height: 22.5px;
     letter-spacing: 0.001em;
     cursor: pointer;
+}
+right:hover {
+    transform: scale(1.01);
+    color: red;
+}
+.moreright:active {
+    transform: scale(0.99);
+    text-decoration: underline;
 }
 @media (max-width: 1428px) {
     header {
@@ -688,4 +751,3 @@ header a:hover {
     left: 24px;
 }
 }
-
