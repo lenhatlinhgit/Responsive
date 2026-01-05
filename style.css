@@ -169,6 +169,10 @@ main {
 .header__icon:active {
     transform: scale(0.98);
 }
+.divCriteriaitem svg {
+    width: 5px;
+    height: 5px;
+}
 .header__user-info {
     display: inline-flex;
     text-align: right;
@@ -353,6 +357,7 @@ main {
     position: relative;
     top: 12px;
     margin: 0px 12px;
+    opacity: 1;
 }
 .divkeyword {
     display: flex;
@@ -419,11 +424,11 @@ main {
     cursor: pointer;
 }
 .relatednews__right:hover {
-    transform: scale(1.01);
+    transform: scale(1.1);
     color: red;
 }
 .relatednews__right:active {
-    transform: scale(0.99);
+    transform: scale(0.9);
     text-decoration: underline;
 }
 .itemnews {
@@ -739,7 +744,7 @@ header a:active {
 
 }
 .itemnews__content {
-    margin-left: 50%;
+    margin-left: 53%;
     width: 50%;
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -776,7 +781,12 @@ header a:active {
 .menu-header {
     left: 24px;
 }
+.divCriteriaitem div {
+    margin: 8px 0px;
 }
-
-
-
+.divCriteriaitem svg {
+    width: 10px;
+    height: 10px;
+    top: 16px;
+}
+}
