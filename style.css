@@ -1,11 +1,15 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #3B4144;
+}
+
+body.menu-open {
+    overflow: hidden;
 }
 header {
     display: flex;
@@ -16,9 +20,14 @@ header {
 }
 nav {
     margin-left: 48px;
+    position: relative;
+}
+.button {
+    display: none;
 }
 header nav svg {
     display: none;
+    cursor: pointer;
 }
 header ul {
     list-style-type:none ;
@@ -34,7 +43,11 @@ a {
     font-size: 14px;
     font-weight: 600;
 }
-
+.line {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
 header a:hover {
     color: black;
     border-bottom:2px solid red ;
@@ -195,6 +208,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .title {
     font-size: 32px;
@@ -244,6 +258,7 @@ main {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.2px;
+    opacity: 0.8;
 }
 .divimg {
     width: 100%;
@@ -285,8 +300,12 @@ main {
 }
 .divCriteriaitem {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+}
+.divCriteriaitem svg {
+    position: relative;
+    top: 12px;
 }
 .divkeyword {
     display: flex;
@@ -331,6 +350,7 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 36px;
+    cursor: pointer;
 }
 .relatednews__right {
     font-size: 16px;
@@ -365,6 +385,7 @@ main {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    cursor: pointer;
 }
 .itemnews__content {
     font-size: 16px;
@@ -399,6 +420,30 @@ main {
     cursor: pointer;
 }
 @media (max-width: 1428px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+    .header__right {
+        margin-left: auto;
+    }
+    .button {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.0125em;
+        height: 40px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #logoheader {
+        margin-left: 24px;
+    }
     header button {
     display: none;
 }
@@ -409,20 +454,87 @@ header nav svg {
 header ul {
     display: none;
 }
+.menu.active {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+    align-items: flex-start;
+    z-index: 1000;
+    transform: translateY(0);
+    transition: opacity 0.11s ease, transform 0.01s ease;
+    margin-top: 0px;
+}
+.menu a {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.menu li {
+    width: 100%;
+}
+#li1 {
+    margin-top: 150px;
+}
+li {
+    margin-bottom: 50px;
+}
+.menu li:hover {
+    display: inline-flex;
+    align-items: center;
+}
+header a:hover {
+    border-bottom: none;
+    color: red;
+}
+.menu li:hover .line {
+    display: inline;
+    width: 50%;
+    height: 3px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.menu-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 20px;
+    left: 48px;
+    gap: 24px;
+}
+#button1 {
+        background-color: red;
+        color: white;
+        width: 456px;
+        margin-bottom: 30px;
+    }
+    #button2 {
+        border: 1px black solid;
+        width: 456px;
+        margin-bottom: 40px;
+    }
+    .divbutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
 }
 @media (max-width: 1024px){
     main {
         width: 696px;
-    }
-    header {
-        display: flex;
-        align-items: center;
-    }
-    .header__right {
-        margin-left: auto;
-    }
-    #logoheader {
-        margin-left: 24px;
     }
     #img1 {
         width: 696px;
@@ -455,7 +567,7 @@ header ul {
     display: none;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     main {
         width: 331px;
     }
@@ -467,6 +579,16 @@ header ul {
     }
     #img1 {
         width: 331px;
+    }
+    #button1 {
+        width: 331px;
+        margin-bottom: 12px;
+    }
+    #button2 {
+        width: 331px;
+    }
+    .menu a {
+        font-size: 26px;
     }
     .inforandshare {
         display: flex;
@@ -555,5 +677,11 @@ header ul {
 }
 .introduction__right--left {
     display: none;
+}
+.menu li:hover .line {
+    width: 25%;
+}
+.menu-header {
+    left: 24px;
 }
 }
