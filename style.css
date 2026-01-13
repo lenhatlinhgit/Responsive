@@ -854,7 +854,7 @@
                 align-items: center;
                 justify-content: flex-start;
                 position: fixed;
-                bottom: 0px;
+                bottom: 30px;
                 margin-bottom: 0px;
             }
             nav {
@@ -1063,4 +1063,5 @@
                 margin-left: 30px;
             }
         }
+
 
