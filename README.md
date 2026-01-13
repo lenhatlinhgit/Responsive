@@ -1,7 +1,22 @@
-# Responsive Layout
-Bài tập thiết kế giao diện responsive theo yêu cầu
-# Mô tả
-Bài tập tập trung vào việc xây dựng giao diện web có khả năng hiển thị tốt trên nhiều kích thước màn hình khác nhau như máy tính, tablet và điện thoại.
+# Bài tập Responsive Layout
+
+## Mô tả
+Dự án này được thực hiện nhằm luyện tập thiết kế giao diện responsive theo yêu cầu
+Giao diện có thể hiển thị tốt trên nhiều kích thước màn hình khác nhau như desktop, tablet và mobile.
+
+## Cách cài đặt
+Tải git và clone dự án về máy: "git clone https://github.com/lenhatlinhgit/Responsive"
+## Cách chạy
+   Mở trực tiếp file `index.html` để Chạy bằng trình duyệt  
+hoặc  
+   Dùng VS Code Mở file `index.html` chọn **Live Server** để chạy xem kết quả
+## Ví dụ sử dụng
+mở DevTools thay đổi Giao diện  khi thay đổi kích thước màn hình Nội dung hiển thị thay đổi  phù hợp trên máy tính, máy tính bảng và điện thoại
+## Công nghệ sử dụng
+- HTML
+- CSS Media Queries
+## Thông tin tác giả
+Lê Nhật Linh
 # 1920px
 ## Thực hành
 ![19210](https://github.com/user-attachments/assets/2818bdb6-2ce8-4ff0-835c-3e793392aae8)
