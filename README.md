@@ -38,6 +38,7 @@
 ## 375px
 
 <img alt="375px  Chi tiết Post" src="https://github.com/user-attachments/assets/a1bb3ab9-549c-4dc8-ac71-28e51be5190c" />
+<br/>
 
 <img alt="375px  Menu" src="https://github.com/user-attachments/assets/c3e246ce-2cff-4ea6-83de-c8e5656f5ada" />
 
