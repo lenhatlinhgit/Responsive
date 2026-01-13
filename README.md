@@ -31,14 +31,14 @@
 
 ## 768px
 
-<img width="768" height="4242" alt="768px  Chi tiết Post" src="https://github.com/user-attachments/assets/cfba18a9-1141-4f19-80fe-cff939310259" />
+<img alt="768px  Chi tiết Post" src="https://github.com/user-attachments/assets/cfba18a9-1141-4f19-80fe-cff939310259" />
 
-<img width="768" height="1024" alt="iPad mini - 1" src="https://github.com/user-attachments/assets/46373a49-1140-419b-94ea-530717d8d0ce" />
+<img alt="iPad mini - 1" src="https://github.com/user-attachments/assets/46373a49-1140-419b-94ea-530717d8d0ce" />
 
 ## 375px
 
-<img width="375" height="3579" alt="375px  Chi tiết Post" src="https://github.com/user-attachments/assets/a1bb3ab9-549c-4dc8-ac71-28e51be5190c" />
+<img alt="375px  Chi tiết Post" src="https://github.com/user-attachments/assets/a1bb3ab9-549c-4dc8-ac71-28e51be5190c" />
 
-<img width="375" height="812" alt="375px  Menu" src="https://github.com/user-attachments/assets/c3e246ce-2cff-4ea6-83de-c8e5656f5ada" />
+<img alt="375px  Menu" src="https://github.com/user-attachments/assets/c3e246ce-2cff-4ea6-83de-c8e5656f5ada" />
 
 
