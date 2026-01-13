@@ -1,4 +1,7 @@
-
+# Responsive Layout
+Bài tập thiết kế giao diện responsive theo yêu cầu
+# Mô tả
+Bài tập tập trung vào việc xây dựng giao diện web có khả năng hiển thị tốt trên nhiều kích thước màn hình khác nhau như máy tính, tablet và điện thoại.
 # 1920px
 ## Thực hành
 ![19210](https://github.com/user-attachments/assets/2818bdb6-2ce8-4ff0-835c-3e793392aae8)
