@@ -27,7 +27,7 @@
 <img width="5760" height="12408" alt="PC  Chi tiết Post-min" src="https://github.com/user-attachments/assets/42c95056-84d5-4e26-8bd8-415f898c5d22" />
 
 ## 1024px
-<img width="1024" height="4136" alt="1024px  Chi tiết Post" src="https://github.com/user-attachments/assets/b2fc124d-3b5d-45c8-887a-1cb401f07f90" />
+<img alt="1024px  Chi tiết Post" src="https://github.com/user-attachments/assets/b2fc124d-3b5d-45c8-887a-1cb401f07f90" />
 
 ## 768px
 
